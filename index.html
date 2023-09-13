@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav {
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            flex: 5;
+
+
+            & a {
+                color: white;
+                text-decoration: none;
+            }
+
+            & a:hover {
+                color: red;
+            }
+        }
+
+
+
+
+
+        header {
+            background-color: rgb(126, 125, 126);
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            & img {
+                flex: 2;
+            }
+
+
+        }
+
+        div {
+            & a {
+                display: block;
+
+                & img {
+                    width: 100%;
+                }
+            }
+
+            ;
+        }
+
+        .heads {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            bottom: 38px;
+
+            & div {
+                background-color: azure;
+
+               width: max-content;
+               height: 50px;
+                display: flex;
+                padding: 20px 30px;
+                justify-content: space-around;
+                align-items: center;
+                gap: 20px;
+                box-shadow: 5px 5px 5px gray;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                transition: all 0.5s ease-in-out;
+}
+
+            }
+
+
+
+
+        
+
+        .sree:hover {
+            background-color: deepskyblue;
+            transform: scale(1.1);
+           
+
+
+
+        }
+
+        .win {
+            background-color: white;
+            width: 300px;
+            height: 350px;
+            color: rgb(255, 255, 255);
+
+
+        }
+
+        .hipe {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            & .win {
+                margin-bottom: 20px;
+                color: black;
+                box-shadow: 5px 5px 5px gray;
+
+                & div {
+                    margin-bottom: 20px;
+                    background-color: goldenrod;
+                    padding: 15px;
+                }
+
+
+            }
+        }
+
+        .card {
+            background-color: white;
+
+        }
+        .foot{
+            display: flex;
+            width: 100%;
+            background-color:currentColor;
+            justify-content: space-evenly;
+            padding: 18px;
+            position: fixed;
+            bottom: 0px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            
+            
+            
+        }
+        aside{
+            position: fixed;
+    right: -50px;
+    top: 45%;
+    transform: rotate(270deg);
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 20px 20px 0 0;
+}
+        
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <img src="https://www.achieversit.com/assets/images/logo-white.png">
+
+        <nav>
+            <a href=""> ALL COURSES</a>
+            <a href="">CORPORATE </a>
+            <a href="">TRAINING </a>
+            <a href="">PLACEMENTS</a>
+            <a href="">INTERNSHIP</a>
+            <a href="">REVIEWS</a>
+            <a href="">BLOG</a>
+        </nav>
+    </header>
+    <div>
+        <a href=""><img src="https://www.achieversit.com/assets/images/angular_training.jpg" alt=""></a>
+    </div>
+    <div class="heads">
+        <div class="sree">
+            <p>BECOME A <br><b>UI DEVELOPER</b></p>
+            <a href="">KNOW MORE</a>
+        </div>
+        <div class="sree">
+            <p>BECOME A <br> <b>ANGULAR DEVELOPER</b></p>
+            <a href="">KNOW MORE</a>
+        </div>
+        <div class="sree">
+            <p>BECOME A <br><b>REACT JS DEVELOPER</b></p>
+            <a href="">KNOW MORE</a>
+        </div>
+
+
+    </div>
+
+
+    <h1>TRENDING COURSES</h1>
+    <div class="hipe">
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+    </div>
+
+
+
+    </div>
+    <h1>RECENT ADDITIONS</h1>
+    <div class="hipe">
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+        <div class="win">
+            <div>
+                <h1><strong>ANGULAR</strong></h1><br>
+                <h1><span>DEVELOPMENT</span></h1><br>
+                <h1><span>COURSE</span></h1>
+            </div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam perspiciatis nam error est
+                adipisci deleniti doloremque quidem nisi saepe voluptates!</p>
+            <hr>
+            <h4>REVIEWS</h4>
+            * * * * *
+            4.8(200)
+        </div>
+       
+        <aside>
+            <h3>CONTACT US</h3>
+        </aside>
+        <footer class="foot">
+            
+            <h3> <a href="">CONTACT US MOB:8073135501</a></h3>
+            <h3><a href="">REQUEST A CALL </a></h3>
+            <h3> <a href="">CHAT WITH US</a></h3>
+            
+        </footer>
+        
+
+</body>
+
+</html>
